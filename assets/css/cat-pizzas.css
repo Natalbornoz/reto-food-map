@@ -1,29 +1,16 @@
-/* #splash {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-} */
-
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
   padding: 0;
-  background-color: red;
 }
 
 .fondo {
-  /*border: 0.2em solid red;*/
+  border: 0.2em solid red;
   background-image: url(../img/wood.jpg);
-  /*height: 100vh;*/
   background-position: center center;
   background-repeat: repeat-y;
   width: 100vw;
+  height: 100%;
   background-size: cover;
 }
 
@@ -44,38 +31,10 @@ a {
   padding-top: 0.5em;
 }
 
-/* MAPA RESPONSIVE*/
-
-.map {
-  padding-top: 4.7em;
-}
-
-.google-maps {
-  position: relative;
-  padding-bottom: 55%; // This is the aspect ratio
-  height: 0;
-  overflow: hidden;
-  border-radius: 1em;
-}
-
-.google-maps iframe {
-  position: absolute;
-  width: 100% !important;
-  height: 100% !important;
-}
-
-/*
-.map {
-  padding: 0;
-  margin-top: 5em;
-  text-align: center;
-  border: 0.2em solid white;
-  border-radius: 0.7em;
-}*/
-
 /* EDICION DROPDOWN */
 
 .text {
+  padding-top: 5em;
   text-align: center;
   color: #5B0A13;
   font-weight: bold;
@@ -109,12 +68,27 @@ a {
   margin-right: 0.5em;
 }
 
+/* MAPA RESPONSIVE*/
+
+.map {}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 55%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.google-maps iframe {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 /* IMAGENES */
 
-.img-food1, .img-food2, .img-food3, .img-food4, .img-food5 {
-  /*margin-top: 1em;*/
-  /*border: 0.2em solid red;*/
-  /*width: 100vw;*/
+.img-pizza {
   width: 100%;
   height: 20%;
   background-size: cover;
@@ -122,22 +96,25 @@ a {
   background-position: center center;
 }
 
-.img-food1 {
-  margin-top: 1em;
-  background-image: url(../img/completo.jpg);
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
+.galery-food {
+  padding-bottom: 2em;
 }
 
-.img-food2 {
-  background-image: url(../img/pizzas3.jpg);
+.cont-modal {
+  padding-top: 1em;
+  text-align: center;
+  color: #5B0A13;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1em;
 }
 
-.img-food3 {
-  background-image: url(../img/hamburguesa.jpg);
-  border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
-  margin-bottom: 1em;
+.cont-modal p {
+  /* border: 0.3em solid green; */
+}
+
+.modal-title {
+  font-family: 'Anton', sans-serif;
+  color: #5B0A13;
 }
 
 footer p, a {
