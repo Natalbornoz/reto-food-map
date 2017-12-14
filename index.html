@@ -1,0 +1,191 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel Jquery</title>
+    <script src="https://use.fontawesome.com/55ab0f4c6e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Yanone+Kaffeesatz" rel="stylesheet">
+    <script src="https://use.fontawesome.com/55ab0f4c6e.js"></script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+  </head>
+  <!-- INICIO BODY -->
+
+  <body>
+    <div class="container-fluid fondo">
+
+
+
+      <!-- INICIO MENU -->
+      <div class="row">
+        <div class="col xs-12">
+
+          <!-- <nav class="navbar navbar-default"> -->
+          <navbar class="navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <!-- boton tipo hamburguesa -->
+              <div class="navbar-header">
+                <a href="#"><img class="img-food-png" src="assets/img/foodmap-logo.png" alt=""></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <!-- <li><a href="#"><img src="assets/img/foodmap-logo.png" alt="" width="150"></a></li> -->
+                  <li><a href="#">Nosotros<span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+
+                      <li><a href="#">Tocomples</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Pizzitas</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Pancitos
+                      </a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+            </nav>
+        </div>
+      </div>
+      <!-- FIN MENU -->
+
+      <!-- INICIO MAPA -->
+      <section class="map container-fluid ">
+        <div class="row">
+          <div class="col xs-10 ">
+            <div class="google-maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13316.95098138056!2d-70.65785046955376!3d-33.44311199638032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scomida+a+domicilio!5e0!3m2!1ses!2scl!4v1513226018521" frameborder="0" style="border:0"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- FIN MAPA -->
+
+      <!-- INICIO SECTION TEXT -->
+      <section class="text container">
+        <div class="row">
+          <div class="col xs-12">
+            <h3>¡ Comida cerca de ti !</h2>
+          <h5>¿ Tienes hambrecita ? </h4>
+            <!-- INICIO FOOD SELECTION -->
+          <div class="dropdown botonera">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-search" aria-hidden="true"></i> |  Elige lo que quieres comer <span class="caret"></span></button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Tocomples</a></li>
+                <li><a href="#">Pizzitas <i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                <li><a href="#">Pancitos</a></li>
+              </ul>
+          </div>
+    <!-- FIN FOOD SELECTION -->
+        </div>
+      </div>
+    </section>
+    <!-- FIN SECTION TEXT -->
+
+    <!-- INICIO MODAL -->
+
+
+
+
+    <!-- <div class="row text-center">
+        <h3>The Basic Modal</h3>
+            <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Click to open Modal</a>
+          </div>
+          <hr>
+
+          <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel">Basic Modal</h4>
+                </div>
+                <div class="modal-body">
+                  <h3>Modal Body</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- FINAL MODAL -->
+          <section class="container-fluid">
+            <div class="row">
+              <div class="col xs-12 ">
+                <div class="img-food1"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="container-fluid">
+            <div class="row">
+              <div class="col xs-12 ">
+                <div class="img-food2"></div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="container-fluid">
+            <div class="row">
+              <div class="col xs-12 ">
+                <div class="img-food3"></div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+          <!-- INICIO FOOTER -->
+
+        </div>
+        <footer class="container-fluid">
+          <div class="row">
+            <div class="col 12-xs">
+              <p class="p">FOOD map s.a. Todos los derechos reservados <a href="#" target="_blank">Visita nuestra web</a></p>
+            </div>
+          </div>
+
+        </footer>
+
+        <!-- FIN FOOTER -->
+
+        <!-- Latest compiled and minified CSS -->
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+        <!-- FIN BODY -->
+
+
+  </body>
+
+</html>
