@@ -32,83 +32,83 @@ var data = {
                 'city': 'Albuquerque'
             }
         ]
+    },
+    'hamburguesas': {
+        'characters': [
+            {
+                'name': 'Hamburguesasas',
+                'picture': '../images/hamburguesa/hamburguesa1.jpg',
+                'city': 'Philadelphia'
+            },
+            {
+                'name': 'El Señor de los Churrascos',
+                'picture': '../images/hamburguesa/hamburguesa2.jpg',
+                'city': 'Philadelphia'
+            },
+            {
+                'name': 'Burguer',
+                'picture': '../images/hamburguesa/hamburguesa3.jpg',
+                'city': 'Philadelphia'
+            },
+            {
+                'name': 'Ham-Ham',
+                'picture': '../images/hamburguesa/hamburguesa4.jpg',
+                'city': 'Philadelphia'
+            },
+            {
+                'name': 'Crustáceo Cascarudo',
+                'picture': '../images/hamburguesa/hamburguesa5.jpg',
+                'city': 'Philadelphia'
+            },
+            {
+                'name': 'Hamburguesaurio',
+                'picture': '../images/hamburguesa/hamburguesa6.jpg',
+                'city': 'Philadelphia'
+            },
+            {
+                'name': 'Burguesas',
+                'picture': '../images/hamburguesa/hamburguesa1.jpg',
+                'city': 'Philadelphia'
+            }
+        ]
+    },
+    'pizzas': {
+        'characters': [
+            {
+                'name': 'Escaramuzza',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            },
+            {
+                'name': 'Mansas Pizzas',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            },
+            {
+                'name': 'Pizzería Tortugas Ninja',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            },
+            {
+                'name': 'Pizzas a la Piedra "La Roca"',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            },
+            {
+                'name': 'Querimo Pizza',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            },
+            {
+                'name': 'Picza Pitza',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            },
+            {
+                'name': 'Pizza pa ti, pizza pa mi',
+                'picture': '../images/pizza/pizza1.jpg',
+                'city': 'Hawkins, Indiana'
+            }
+        ]
     }
-    // 'howtoget': {
-    //     'characters': [
-    //         {
-    //             'name': 'Annalise Keating',
-    //             'picture': 'img/howtoget/annalise.jpg',
-    //             'city': 'Philadelphia'
-    //         },
-    //         {
-    //             'name': 'Connor Walsh',
-    //             'picture': 'img/howtoget/connor.png',
-    //             'city': 'Philadelphia'
-    //         },
-    //         {
-    //             'name': 'Wes Gibbins',
-    //             'picture': 'img/howtoget/wes.jpg',
-    //             'city': 'Philadelphia'
-    //         },
-    //         {
-    //             'name': 'Asher Millstone',
-    //             'picture': 'img/howtoget/asher.jpg',
-    //             'city': 'Philadelphia'
-    //         },
-    //         {
-    //             'name': 'Michaela Pratt',
-    //             'picture': 'img/howtoget/michaela.jpg',
-    //             'city': 'Philadelphia'
-    //         },
-    //         {
-    //             'name': 'Frank Delfino',
-    //             'picture': 'img/howtoget/frank.jpg',
-    //             'city': 'Philadelphia'
-    //         },
-    //         {
-    //             'name': 'Bonnie Winterbottom',
-    //             'picture': 'img/howtoget/bonnie.jpg',
-    //             'city': 'Philadelphia'
-    //         }
-    //     ]
-    // },
-    // 'stranger': {
-    //     'characters': [
-    //         {
-    //             'name': 'Eleven',
-    //             'picture': 'img/stranger/eleven.jpg',
-    //             'city': 'Hawkins, Indiana'
-    //         },
-    //         {
-    //             'name': 'Mike Wheeler',
-    //             'picture': 'img/stranger/mike.jpg',
-    //             'city': 'Hawkins, Indiana'
-    //         },
-    //         {
-    //             'name': 'Dustin Henderson',
-    //             'picture': 'img/stranger/dustin.jpg',
-    //             'city': 'Hawkins, Indiana'
-    //         },
-    //         {
-    //             'name': 'Lucas Sinclair',
-    //             'picture': 'img/stranger/lucas.jpg',
-    //             'city': 'Hawkins, Indiana'
-    //         },
-    //         {
-    //             'name': 'Will Byers',
-    //             'picture': 'img/stranger/will.jpg',
-    //             'city': 'Hawkins, Indiana'
-    //         },
-    //         {
-    //             'name': 'Nancy Wheeler',
-    //             'picture': 'img/stranger/nancy.png',
-    //             'city': 'Hawkins, Indiana'
-    //         },
-    //         {
-    //             'name': 'Joyce Byers',
-    //             'picture': 'img/stranger/joyce.jpg',
-    //             'city': 'Hawkins, Indiana'
-    //         }
-    //     ]
-    // }
 }
