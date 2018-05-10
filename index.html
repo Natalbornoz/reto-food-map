@@ -4,40 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOOD map | Inicio </title>
-    <script src="https://use.fontawesome.com/55ab0f4c6e.js"></script>
+    <script src="https://use.fontawesome.com/daadd109f9.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Anton|Yanone+Kaffeesatz" rel="stylesheet">
-    <script src="https://use.fontawesome.com/55ab0f4c6e.js"></script>
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="assets/js/app.js"></script>
   </head>
   <!-- INICIO BODY -->
 
   <body>
-
-    <!-- INICIO SPLASH -->
-    <!-- <div class="preload">
-      <div class="logo">
-        <img src="assets/img/foodmap-logo.png" width="250" alt="">
-      </div>
-      <div class="loader-frame">
-        <div class="loader1" id="loader1"> </div>
-        <div class="loader2" id="loader2"> </div>
-      </div>
-    </div> -->
-    <!-- <div class="row">
-      <div class="col xs-12">
-        <div id="splash">
-          <h2 class="mark">Foodmap</h2>
-        </div>
-      </div>
-    </div> -->
-    <!-- FIN SPLASH -->
-
-    <div class="container-fluid fondo">
-
-
+    <div class="container-fluid fondo"> 
       <!-- INICIO MENU -->
       <div class="row">
         <div class="col xs-12">
@@ -49,7 +25,7 @@
               <!-- Brand and toggle get grouped for better mobile display -->
               <!-- boton tipo hamburguesa -->
               <div class="navbar-header">
-                <a href="index.html"><img class="img-food-png" src="assets/img/foodmap-logo.png" alt=""></a>
+                <a href="index.html"><img class="img-food-png" src="assets/images/foodmap-logo.png" alt=""></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 
               <span class="sr-only">Toggle navigation</span>
@@ -66,18 +42,6 @@
                   <!-- <li><a href="#"><img src="assets/img/foodmap-logo.png" alt="" width="150"></a></li> -->
                   <li><a href="#">Nosotros<span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Contacto</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-
-                      <li><a href="#">Tocomples</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Pizzitas</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Pancitos
-                      </a></li>
-                    </ul>
-                  </li>
                 </ul>
 
               </div>
@@ -108,19 +72,42 @@
         <div class="row">
           <div class="col xs-12">
             <h3>¡ Comida cerca de ti !</h2>
-          <h5>¿ Tienes hambrecita ? </h4>
-            <!-- INICIO FOOD SELECTION -->
-          <div class="dropdown botonera">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-search" aria-hidden="true"></i> |  Elige lo que quieres comer <span class="caret"></span></button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Tocomples</a></li>
-                <li><a href="cat-pizzas.html">Pizzitas <i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                <li><a href="#">Pancitos</a></li>
-              </ul>
-          </div>
-    <!-- FIN FOOD SELECTION -->
+            <h5>¿ Tienes hambrecita ? </h4>
+          </div>    
         </div>
-      </div>
+            <!-- INICIO FOOD SELECTION -->
+            
+              <div class="row">
+                <div class="select col xs-3">
+                  <button type="button" class="btn btn-md btn-completo">Completos</button>
+                </div>
+                <div class="select col xs-3">
+                  <button type="button" class="btn btn-md btn-hamburguesa">Hamburguesas</button>
+                </div>
+                <div class="select col xs-3">
+                  <button type="button" class="btn btn-md btn-pizza">Pizzas</button>
+                </div>
+                <!-- BOTON PARA MOSTRAR TODOS LOS TIPOS DE COMIDA -->
+                <div class="select col xs-3">
+                  <button type="button" class="btn btn-md btn-todo">Todo</button>
+                </div>
+              </div>
+
+              <!-- DIV VACION PARA MOSTRAR OPCIONES DE COMPLETOS DESDE JQUERY + DATA -->
+              <div class="completos"></div>
+              
+              <!-- DIV VACION PARA MOSTRAR OPCIONES DE HAMBURGUESAS DESDE JQUERY + DATA -->
+              <div class="hamburguesas"></div>
+              
+              <!-- DIV VACION PARA MOSTRAR OPCIONES DE PIZZAS DESDE JQUERY + DATA -->
+              <div class="pizzas"></div>
+              
+              <!-- DIV VACION PARA MOSTRAR TODAS LAS OPCIONES DE COMIDA DESDE JQUERY + DATA -->
+              <div class="todos"></div>
+              
+             
+
+    <!-- FIN FOOD SELECTION -->
     </section>
     <!-- FIN SECTION TEXT -->
 
@@ -151,7 +138,7 @@
           </section>
           <!-- FIN GALERIA INFERIOR -->
 
-
+        
 
           <!-- INICIO FOOTER -->
 
@@ -171,9 +158,12 @@
 
 
         <!-- Latest compiled and minified JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+        <script src="assets/js/data.js"></script>
+        <script src="assets/js/app.js"></script>
   </body>
 
 </html>
